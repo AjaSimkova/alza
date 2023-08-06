@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@1,90.5,300;1,100,300&family=Roboto&display=swap"
+            rel="stylesheet">
+
+        <script src="script.js" defer></script>
+        <title>Landig page</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="navbar">
+                <div class="navbar-left">
+
+                    <img class="alza-logo" src="./photos/pictures/logo Alza.png"
+                        alt="logo alzy">
+                    <div class="input-box">
+                        <img class="photo-lupa" src="./photos/pictures/lupa.png"
+                            alt="lupa">
+                        <input type="text"
+                            placeholder="Co hledáte? Např. kabel AlzaPower...">
+                        <button class="button-navbar" for="text">Hledat</button>
+                    </div>
+                </div>
+                <div class="navbar-right">
+                    <img class="navbar-icons-menu"
+                        src="./photos/pictures/moje-Alza.png"
+                        alt="ikona moje alza">
+                    <div class="divider"></div>
+                    <img class="navbar-icons"
+                        src="./photos/pictures/Icons.png"
+                        alt="obrázek ikony">
+                    <div class="divider"></div>
+                    <img class="navbar-icons-kosik"
+                        src="./photos/pictures/shape.png"
+                        alt="obrázek košík">
+                </div>
+            </div>
+            <!-----------------------------------------Introduction-------------------------------->
+
+            <div class="main-container__introduction">
+                <div class="introductio-box">
+                    <div class="introduction-left">
+                        <div class="introduction-grid">
+                            <h1 class="main-title">Nákupy pod palcem</h1>
+                            <p class="main-paragraph">Nakupuj pohodlně s naší
+                                aplikací,
+                                ať jsi kdekoliv.</p>
+                            <img class="introduction-QR"
+                                src="./photos/pictures/QR-code.png" alt>
+                            <img class="introduction-googleplay"
+                                src="./photos/pictures/googleplay.png" alt>
+                            <img class="introduction-applestore"
+                                src="photos/pictures/applestore.svg" alt>
+                        </div>
+                    </div>
+                    <div class="introduction-right">
+                        <div class="introduction-right__vector">
+                            <img class="img-vector"
+                                src="./photos/pictures/Vector.png" alt>
+                            <img class="img-vector-text"
+                                src="./photos/pictures/Naskenuj QR kód a získej aplikaci Alza.cz ihned.png"
+                                alt>
+                        </div>
+                        <div class="introduction-right__hand">
+                            <img class="img-hand"
+                                src="./photos/pictures/ruka3 1.png" alt>
+                        </div>
+                    </div>
+                </div>
+                <div class="introduction-footer">
+                    <div class="introduction-footer__icons">
+                        <img class="introduction_photo"
+                            src="./photos/pictures/photo-bezdotykove.svg" alt>
+                        <a class="introduction-paragraph"
+                            href="#main-container__alzabox">Bezdotykové
+                            otevírání
+                            AlzaBoxůˇ</a>
+                    </div>
+                    <div class="introduction-footer__icons">
+                        <img class="introduction_photo"
+                            src="./photos/pictures/zrychleny-vydej.png" alt>
+                        <a class="introduction-paragraph"
+                            href="#main-container__line">Zrychlený výdej na
+                            pobočce ˇ</a>
+                    </div>
+                    <div class="introduction-footer__icons">
+                        <img class="introduction-photo"
+                            src="./photos/pictures/stav-historie.png" alt>
+                        <a class="introduction-paragraph"
+                            href="#main-container__dark">Stav a historie
+                            objednávek ˇ</a>
+                    </div>
+                    <div class="introduction-footer__icons">
+                        <img class="introduction-photo"
+                            src="./photos/pictures/icons-cerne-pozadi.svg" alt>
+                        <a class="introduction-paragraph"
+                            href="#main-container-end">Umí toho ještě
+                            více ˇ</a>
+                    </div>
+                </div>
+            </div>
+            <!--------------------------------------------Alzabox----------------------------------->
+            <div class="main-container__alzabox" id="main-container__alzabox">
+                <div class="box-graycolor__alzabox"></div>
+                <div class="box-h2-p">
+                    <h2 class="title-h2 open-alzabox">Otevření více než 1300
+                        AlzaBoxů
+                        jedním
+                        tlačítkem? Pod palcem.</h2>
+                    <p class="paragraph-h2">Neztrácej čas. S aplikací si
+                        můžeš
+                        AlzaBox otevřít během okamžiku jedním kliknutím, a
+                        to
+                        ještě bezdotykově.</p>
+                </div>
+                <div class="box-alzabox">
+                    <div class="box-alzabox__left">
+                        <div class="alzabox-__left__list">
+                            <p class="alzabox-list__numberone  ">1</p>
+                            <p class="alzabox-list__paragraph "
+                                [data-num="1" ]>Až
+                                budete u
+                                AlzaBoxu, otevřete si mobilní aplikaci a
+                                klikněte na tlačítko Otevřít AlzaBox.</p>
+                            <p class="alzabox-list__numbertwo "
+                                data-num="3">2</p>
+                            <p class="alzabox-list__paragraph  "
+                                [data-num="2" ]>Naskenujte
+                                pomocí aplikace QR kód na obrazovce
+                                AlzaBoxu.</p>
+                            <p class="alzabox-list__numberthree  ">3</p>
+                            <p class="alzabox-list__paragraph  "
+                                [data-num="3" ]>A je
+                                to.
+                                Schránka
+                                se otevře a vy si vyzvednete zboží. Pak už
+                                jen
+                                schránku zavřete.</p>
+                        </div>
+                    </div>
+                    <div class="box-alzabox__right">
+                        <img src="./photos/pictures/sekce-1.png" alt>
+                    </div>
+                </div>
+                <div class="button-alzabox-div">
+                    <button class="button-alzabox">Více o Alzaboxech</button>
+                </div>
+            </div>
+            <!----------------------------------line------------------------------>
+            <div class="main-container__line" id="main-container__line">
+                <div class="box-line__white">
+                    <div class="box-h2-p">
+                        <h2 class="title-h2 ">Přeskočení fronty na
+                            pobočce? Pod
+                            palcem.</h2>
+                        <p class="paragraph-h2">S aplikací už se nemusíš mačkat
+                            ve frontě. Stačí cestou na pobočku kliknout na
+                            tlačítko vyzvednout a objednávku ti připravíme.</p>
+                    </div>
+                </div>
+                <div class="box-line__green">
+                    <div class="line-green__img">
+                        <img class="photo-sekce-2"
+                            src="./photos/pictures/sekce-2.png" alt>
+                    </div>
+                    <div class="line-green__list">
+                        <p class="line-list__numberone">1</p>
+                        <p class="line-list__paragraph">Až budete u pobočky, kde
+                            máte zboží k vyzvednutí kliknete v aplikaci na
+                            Zahájení výdeje nákupu</p>
+                        <p class="line-list__numbertwo">2</p>
+                        <p class="line-list__paragraph">Následně obsluha pobočky
+                            začne s výdejem vašeho zboží</p>
+                        <p class="line-list__numberthree">3</p>
+                        <p class="line-list__paragraph">Za pár minut bude zboží
+                            připraveno k výdeji a vy si zboží už jen vyzvednete
+                            . Bez fronty.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box-line__whiteBottom">
+                <div class="button-line-div">
+                    <button class="button-line"><a
+                            class="introduction-paragraph a-button"
+                            href="#https://www.alza.cz/seznam-prodejen-a-alzaboxu">Nejbližší
+                            pobočka</a>
+                    </button>
+                </div>
+            </div>
+            <!-------------------------------------Dark----------------------------------------------------->
+            <div class="main-container__dark" id="main-container__dark">
+                <div class="box-dark__title">
+                    <div class="box-h2-p__dark">
+                        <h2 class="title-h2 h2-dark">Sledování objednávky? Pod
+                            palcem.</h2>
+                        <p class="paragraph-h2">Měj aktuální přehled o tom,
+                            jak to vypadá s tvou objednávkou a kdy ji můžeš
+                            očekávat.</p>
+                    </div>
+                    <div class="box-dark__body">
+                        <div class="dark-body__left">
+                            <ul class="dark-body__list">
+                                <li>Vše máte na jednom místě. Přehled
+                                    objednávek, záruční listy, reklamace a
+                                    další.</li>
+                                <li>Díky push notifikacím vám neunikne žádná
+                                    slevová akce nebo jiná důležitá informace.</li>
+                                <li>Reklamaci, či vrácení nevyhovující zboží
+                                    snadno vyřešíte na pár kliků.</li>
+                            </ul>
+                            <div class="dark-img__arrow">
+                                <img class="img-arrow"
+                                    src="photos/pictures/Arrow 3.png" alt>
+                            </div>
+                        </div>
+                        <div class="dark-body__right">
+                            <img src="photos/pictures/sekce-3.png"
+                                class="img-sekce3 reveal" alt>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-------------------------------------end------------------------------------->
+            <div class=" main-container-end" id="main-container-end">
+                <div class="box-h2-p">
+                    <h2 class="title-h2">Umí ještě více</h2>
+                </div>
+                <div class="box-end__text">
+                    <div class="end-block">
+                        <h5 class="title-end">Ověřujte si nejlepší ceny s funkcí
+                            skenování čárových /QR kódů</h5>
+                        <p class="end-paragraph">Ať už zrovna nakupujete v jakém
+                            koliv obchodě, cenu si můžete snadno porovnat s naší
+                            cenou pomocí mobilní aplikace. Tato funkce je
+                            praktickí
+                            i ve schvíli, kdy se o produktu potřebujete dozvědět
+                            více detailů.</p>
+                    </div>
+                    <div class="end-block">
+                        <h5 class="title-end">Vyzkoušej si , jak se vám hodí
+                            spotřebiče do domácnosti s rozšířenou realitou</h5>
+                        <p class="end-paragraph">S funkcí AR/3D si můžete
+                            prohlédnout vybrané produkty u vás doma, ještě
+                            předtím,
+                            než je doma rozbalíte. Přesvěčte se, že se vše vejde
+                            a
+                            hodí přesně tak jak más.</p>
+                    </div>
+                    <div class="end-block">
+                        <h5 class="title-end">Tmavý režim</h5>
+                        <p class="end-paragraph">Pokud preferujete ve vaše,
+                            telefonu
+                            tmavý režim, tak se nemusíte obávat. Naší aplikací
+                            si
+                            také můžete přehodit do tmavého kabátu. </p>
+                    </div>
+                </div>
+                <div class="box-end__image">
+                    <div class="end-empty"></div>
+                    <div class="end-blue">
+                        <div class="end-img reveal">
+                            <img src="photos/pictures/sekce-4.png" alt>
+                        </div>
+                    </div>
+                </div>
+                <div class="end-button">
+                    <button class="button-stahnout-aplikaci"><a
+                            class="introduction-paragraph a-button"
+                            href="#https://www.alza.cz/svetelne-retezy/18893194.htm?evt=re&exps=svetelny+retez#f&cst=0&cud=0&pg=1-3&prod=">Stáhnout
+                            aplikaci </a></button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
